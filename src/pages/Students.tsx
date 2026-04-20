@@ -19,7 +19,7 @@ import {
 import { allSubjects } from '@/data/initialData';
 
 export default function Students() {
-  const [grade, setGrade] = useState<Grade>('FORM_1');
+  const [grade, setGrade] = useState<Grade>('FORM 1');
   const [stream, setStream] = useState<Stream>('A');
   const [formOpen, setFormOpen] = useState(false);
   const [formMode, setFormMode] = useState<'add' | 'edit'>('add');
